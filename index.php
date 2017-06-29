@@ -19,6 +19,7 @@ function is_url_exist($url){
     <title>IntranetProject - Status</title>
     <link href="css/reset.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
+
 </head>
 <body>
 <div class="container">
@@ -49,12 +50,15 @@ function is_url_exist($url){
             echo is_url_exist("http://shop.intranetproject.net/up.txt");
             ?>
             <div class="clearer"></div>
-            <a target="_blank" class="site" href="http://json.intranetproject.net">Json Tool is </a>
+            <a target="_blank" class="site" href="http://json.intranetproject.net">JSON tool is </a>
             <?php
             echo is_url_exist("http://json.intranetproject.net/up.txt");
             ?>
             <div class="clearer"></div>
         </div>
+    </div>
+    <div class="discord">
+        <iframe src="https://discordapp.com/widget?id=313774393342033920&theme=dark" height="500" allowtransparency="true" frameborder="0"></iframe>
     </div>
 </div>
 </body>

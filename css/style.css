@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 .container {
     background-color: #2D3438;
-    height: 100%;
     width: 100%;
     font-family: 'Roboto', sans-serif;
 }
@@ -46,5 +45,12 @@
 .notice {
     color: white;
     text-align: center;
-    
+}
+.discord {
+    width: 50%;
+    margin: 0 auto;
+}
+.discord iframe {
+    margin-top: 50px;
+    width: 100%;
 }
