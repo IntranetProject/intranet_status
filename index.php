@@ -11,6 +11,7 @@ function is_url_exist($url, $file){
         $status = '<p class="offline st">in Maintenance!</p>';
     }
     curl_close($ch);
+
     return $status;
 }
 ?>
