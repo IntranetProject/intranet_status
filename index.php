@@ -8,7 +8,7 @@ function is_url_exist($url, $file){
     if($code == 200){
         $status = '<p class="online st">up!</p>';
     }else{
-        $status = '<p class="offline st">in Maintenance!</p>';
+        $status = '<p class="offline st">under maintenance!</p>';
     }
     curl_close($ch);
 
@@ -49,6 +49,11 @@ function is_url_exist($url, $file){
             <a target="_blank" class="site" href="http://shop.intranetproject.net">Shop is </a>
             <?php
             echo is_url_exist("http://shop.intranetproject.net/", "up.txt");
+            ?>
+            <div class="clearer"></div>
+            <a target="_blank" class="site" href="http://api.intranetproject.net">API is</a>
+            <?php
+            echo is_url_exist("http://api.intranetproject.net/", "up.txt");
             ?>
             <div class="clearer"></div>
             <a target="_blank" class="site" href="http://json.intranetproject.net">JSON tool is </a>
