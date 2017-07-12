@@ -1,6 +1,6 @@
 <?php
-function is_url_exist($url){
-    $ch = curl_init($url);
+function is_url_exist($url, $file){
+    $ch = curl_init($url . $file);
     curl_setopt($ch, CURLOPT_NOBODY, true);
     curl_exec($ch);
     $code = curl_getinfo($ch, CURLINFO_HTTP_CODE);
@@ -8,7 +8,7 @@ function is_url_exist($url){
     if($code == 200){
         $status = '<p class="online st">up!</p>';
     }else{
-        $status = '<p class="offline st">down!</p>';
+        $status = '<p class="offline st">in Maintenance!</p>';
     }
     curl_close($ch);
     return $status;
@@ -32,27 +32,27 @@ function is_url_exist($url){
             <div class="clearer"></div>
             <a target="_blank" class="site" href="http://intranetproject.net">Main site is </a>
             <?php
-            echo is_url_exist("http://intranetproject.net/up.txt");
+            echo is_url_exist("http://intranetproject.net/", "up.txt");
             ?>
             <div class="clearer"></div>
             <a target="_blank" class="site" href="http://docs.intranetproject.net">Docs are </a>
             <?php
-            echo is_url_exist("http://docs.intranetproject.net/up.txt");
+            echo is_url_exist("http://docs.intranetproject.net/", "up.txt");
             ?>
             <div class="clearer"></div>
             <a target="_blank" class="site" href="http://blog.intranetproject.net">Blog is </a>
             <?php
-            echo is_url_exist("http://blog.intranetproject.net/up.txt");
+            echo is_url_exist("http://blog.intranetproject.net/", "up.txt");
             ?>
             <div class="clearer"></div>
             <a target="_blank" class="site" href="http://shop.intranetproject.net">Shop is </a>
             <?php
-            echo is_url_exist("http://shop.intranetproject.net/up.txt");
+            echo is_url_exist("http://shop.intranetproject.net/", "up.txt");
             ?>
             <div class="clearer"></div>
             <a target="_blank" class="site" href="http://json.intranetproject.net">JSON tool is </a>
             <?php
-            echo is_url_exist("http://json.intranetproject.net/up.txt");
+            echo is_url_exist("http://json.intranetproject.net/", "up.txt");
             ?>
             <div class="clearer"></div>
         </div>
