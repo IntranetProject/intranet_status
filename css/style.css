@@ -38,12 +38,12 @@
 }
 
 .online {
-    color: #4CAF50;
+    color: #2ECC71;
     display: inline;
 }
 
 .offline {
-    color: #FF4336;
+    color: #E74C3C;
     display: inline;
 }
 
