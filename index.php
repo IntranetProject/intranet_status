@@ -8,7 +8,7 @@ function is_url_exist($url){
     if($code == 200){
         $status = '<p class="online st">up!</p>';
     }else{
-        $status = '<p class="offline st">down!</p>';
+        $status = '<p class="offline st">under maintenance!</p>';
     }
     curl_close($ch);
     return $status;
@@ -58,6 +58,9 @@ function is_url_exist($url){
             ?>
                                         <div class="clearer"></div>
                 </div>
+            </div>
+            <div class="discord">
+              <a class="twitter-timeline" data-theme="dark" data-link-color="#2B7BB9" href="https://twitter.com/intranetprojec">Tweets by intranetprojec</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
             </div>
             <div class="discord">
                 <iframe src="https://discordapp.com/widget?id=313774393342033920&theme=dark" height="500" allowtransparency="true" frameborder="0"></iframe>
