@@ -32,37 +32,37 @@ function is_url_exist($url){
                 <p>Click on any Name to visit the site!</p>
             </small>
                     <div class="clearer"></div>
-                    <a target="_blank" class="site" href="http://intranetproject.net">Main site is </a>
+                    <a target="_blank" class="site" href="http://intranetproject.net">Main site</a> is
                     <?php
             echo is_url_exist("http://intranetproject.net/up.txt");
             ?>
                         <div class="clearer"></div>
-                        <a target="_blank" class="site" href="http://docs.intranetproject.net">Docs are </a>
+                        <a target="_blank" class="site" href="http://docs.intranetproject.net">Docs</a> are
                         <?php
             echo is_url_exist("http://docs.intranetproject.net/up.txt");
-            ?>
+                    ?>
                             <div class="clearer"></div>
-                            <a target="_blank" class="site" href="http://blog.intranetproject.net">Blog is </a>
+                            <a target="_blank" class="site" href="http://blog.intranetproject.net">Blog</a> is
                             <?php
             echo is_url_exist("http://blog.intranetproject.net/up.txt");
             ?>
                                 <div class="clearer"></div>
-                                <a target="_blank" class="site" href="http://shop.intranetproject.net">Shop is </a>
+                                <a target="_blank" class="site" href="http://shop.intranetproject.net">Shop</a> is
                                 <?php
             echo is_url_exist("http://shop.intranetproject.net/up.txt");
             ?>
                                     <div class="clearer"></div>
-                                    <a target="_blank" class="site" href="http://json.intranetproject.net">JSON tool is </a>
+                                    <a target="_blank" class="site" href="http://json.intranetproject.net">JSON tool</a> is
                                     <?php
             echo is_url_exist("http://json.intranetproject.net/up.txt");
             ?>
                                         <div class="clearer"></div>
                 </div>
             </div>
-            <div class="discord">
-              <a class="twitter-timeline" data-theme="dark" data-link-color="#2B7BB9" href="https://twitter.com/intranetprojec">Tweets by intranetprojec</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+            <div class="media twitter">
+              <a class="twitter-timeline" data-theme="dark" data-link-color="#2B7BB9" href="https://twitter.com/intranetprojec" data-tweet-limit="5">Tweets by intranetprojec</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
             </div>
-            <div class="discord">
+            <div class="media">
                 <iframe src="https://discordapp.com/widget?id=313774393342033920&theme=dark" height="500" allowtransparency="true" frameborder="0"></iframe>
             </div>
             <div class="footer">
