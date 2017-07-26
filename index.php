@@ -52,7 +52,7 @@ function is_url_exist($url){
                 echo is_url_exist("http://shop.intranetproject.net/up.txt");
                 ?>
                 <div class="clearer"></div>
-                <a target="_blank" class="site" href="http://download.intranetproject.net">Shop is </a>
+                <a target="_blank" class="site" href="http://download.intranetproject.net">Download is </a>
                 <?php
                 echo is_url_exist("http://download.intranetproject.net/up.txt");
                 ?>
