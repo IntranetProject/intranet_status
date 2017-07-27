@@ -32,54 +32,56 @@ function is_url_exist($url){
                         <p>Click on any Name to visit the site!</p>
                     </small>
                     <div class="clearer"></div>
-                    <a target="_blank" class="site" href="http://intranetproject.net">Main site is </a>
+                    <a target="_blank" class="site" href="http://intranetproject.net">Main site</a> is
                     <?php
                     echo is_url_exist("http://intranetproject.net/up.txt");
                     ?>
-                    <div class="clearer"></div>
-                    <a target="_blank" class="site" href="http://docs.intranetproject.net">Docs are </a>
-                    <?php
+                        <div class="clearer"></div>
+                        <a target="_blank" class="site" href="http://docs.intranetproject.net">Docs</a> are
+                        <?php
                     echo is_url_exist("http://docs.intranetproject.net/up.txt");
                     ?>
-                    <div class="clearer"></div>
-                    <a target="_blank" class="site" href="http://blog.intranetproject.net">Blog is </a>
-                    <?php
+                            <div class="clearer"></div>
+                            <a target="_blank" class="site" href="http://blog.intranetproject.net">Blog</a> is
+                            <?php
                     echo is_url_exist("http://blog.intranetproject.net/up.txt");
                     ?>
-                    <div class="clearer"></div>
-                    <a target="_blank" class="site" href="http://shop.intranetproject.net">Shop is </a>
-                    <?php
+                                <div class="clearer"></div>
+                                <a target="_blank" class="site" href="http://shop.intranetproject.net">Shop</a> is
+                                <?php
                     echo is_url_exist("http://shop.intranetproject.net/up.txt");
                     ?>
-                    <div class="clearer"></div>
-                    <a target="_blank" class="site" href="http://download.intranetproject.net">Download is </a>
-                    <?php
+                                    <div class="clearer"></div>
+                                    <a target="_blank" class="site" href="http://download.intranetproject.net">Download</a> is
+                                    <?php
                     echo is_url_exist("http://download.intranetproject.net/up.txt");
                     ?>
-                    <div class="clearer"></div>
-                    <a target="_blank" class="site" href="http://json.intranetproject.net">JSON tool is </a>
-                    <?php
+                                        <div class="clearer"></div>
+                                        <a target="_blank" class="site" href="http://json.intranetproject.net">JSON tool</a> is
+                                        <?php
                     echo is_url_exist("http://json.intranetproject.net/up.txt");
                     ?>
-                    <div class="clearer"></div>
-            </div>
-            <div class="discord">
-              <a class="twitter-timeline" data-theme="dark" data-link-color="#2B7BB9" href="https://twitter.com/intranetprojec">Tweets by intranetprojec</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-            </div>
-            <div class="discord">
-                <iframe src="https://discordapp.com/widget?id=313774393342033920&theme=dark" height="500" allowtransparency="true" frameborder="0"></iframe>
+                                            <div class="clearer"></div>
+                </div>
+                <div class="media">
+                    <a class="twitter-timeline" data-theme="dark" data-link-color="#2B7BB9" href="https://twitter.com/intranetprojec">Tweets by intranetprojec</a>
+                    <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+                </div>
+                <div class="media discord">
+                    <iframe src="https://discordapp.com/widget?id=313774393342033920&theme=dark" height="500" allowtransparency="true" frameborder="0"></iframe>
+                </div>
             </div>
             <div class="footer">
-                <div class="git">
-                    <p><a href="https://github.com/IntranetProject">GitHub</a></p>
+                    <div class="git">
+                        <p><a href="https://github.com/IntranetProject">GitHub</a></p>
+                    </div>
+                    <div class="imp">
+                        <p><a href="imprint.html">Impressum</a></p>
+                    </div>
+                    <div class="credit">
+                        <p><b><i style="color: black;">&lt; &gt;</i></b> with <i style="color: red;">&hearts;</i> by <a href="https://github.com/IntranetProject">Intranet</a></p>
+                    </div>
                 </div>
-                <div class="imp">
-                    <p><a href="imprint.html">Impressum</a></p>
-                </div>
-                <div class="credit">
-                    <p><b><i style="color: black;">&lt; &gt;</i></b> with <i style="color: red;">&hearts;</i> by <a href="https://github.com/IntranetProject">Intranet</a></p>
-                </div>
-            </div>
         </div>
     </body>
 
