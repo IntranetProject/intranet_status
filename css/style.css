@@ -1,11 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
+
+/* MAIN */
+
 .container {
     background-color: #4E5C63;
     width: 100%;
     height: auto;
-    font-family: 'Roboto', sans-serif;
     overflow: auto;
     display: block;
+    font-family: 'Roboto', sans-serif;
     color: white;
 }
 
@@ -22,17 +25,29 @@
     margin: 0 auto;
     margin-top: 50px;
     border: 1px solid #1d2224;
-    background-color:  #2D3438;
+    background-color: #2D3438;
+}
+
+.inner {
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 1.5em;
+}
+
+.notice {
+    color: white;
+    text-align: center;
+    font-size: 0.8em !important;
+}
+
+.clearer {
+    height: 20px;
+    clear: both;
 }
 
 .site {
     color: white;
     margin-bottom: 20px;
-}
-.inner {
-    margin-left: 20px;
-    margin-top: 20px;
-    font-size: 1.5em;
 }
 
 .online {
@@ -45,16 +60,8 @@
     display: inline;
 }
 
-.clearer {
-    height: 20px;
-    clear: both;
-}
 
-.notice {
-    color: white;
-    text-align: center;
-    font-size: 0.8em !important;
-}
+/* TWITTER & DISCORD */
 
 .media {
     width: 90%;
@@ -67,41 +74,16 @@
 .media iframe {
     width: 100%;
     height: 45%;
-}/*
-.discord {
-    margin-left: 5% !important;
-    margin-bottom: 2%;
-} */
-@media only screen and (max-device-width: 1400px) {
-    .container {
-        height: 100%;
-        margin: 0;
-    }
-    .inner {
-        width: 100%;
-    }
-    .content {
-        width: 100%;
-        text-align: center;
-    }
 }
 
-::-webkit-scrollbar-track {
-    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
-    border-radius: 1px;
-    background-color: #4E5C63;
+.twitter a {
+    text-align: center !important;
+    font-size: 3em !important;
+    color: white;
+    width: 100%;
 }
 
-::-webkit-scrollbar {
-    width: 12px;
-    background-color: #4E5C63;
-}
-
-::-webkit-scrollbar-thumb {
-    border-radius: 1px;
-    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
-    background-color: #2D3438;
-}
+/* FOOTER */
 
 .footer {
     width: 100%;
@@ -127,7 +109,56 @@
     background-color: #2D3438;
     margin-top: 0.5%;
 }
-.twitter {
-    border: 1px solid #9999A1;
-    border-radius: 5px;
+
+
+/* WEBKITS */
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    border-radius: 1px;
+    background-color: #4E5C63;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+    background-color: #4E5C63;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 1px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+    background-color: #2D3438;
+}
+
+
+/*MEDIA QUERIES*/
+
+@media only screen and (max-device-width: 1400px) {
+    .container {
+        height: auto;
+        overflow: auto;
+        display: block;
+        margin: 0;
+    }
+    .inner {
+        width: 90%;
+        text-align: left;
+        margin-bottom: 5%;
+    }
+    .content {
+        width: 90%;
+        height: auto;
+        overflow: auto;
+        display: block;
+    }
+    .media {
+        margin-top: 5%;
+    }
+    .discord {
+        max-height: 70%;
+    }
+    .footer {
+        font-size: 2em;
+        margin-top: 5% !important;
+    }
 }

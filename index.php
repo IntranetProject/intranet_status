@@ -63,7 +63,9 @@ function is_url_exist($url){
                     ?>
                                             <div class="clearer"></div>
                 </div>
-                <div class="media">
+                <hr>
+                <div style="clear:both"></div>
+                <div class="media twitter">
                     <a class="twitter-timeline" data-theme="dark" data-link-color="#2B7BB9" href="https://twitter.com/intranetprojec">Tweets by intranetprojec</a>
                     <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
                 </div>
