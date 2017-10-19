@@ -1,0 +1,8 @@
+{
+  "name": "status.intranetproject.net",
+  "description": "status website",
+  "version": "1",
+  "scripts": {
+    "test": "node test.js"
+  }
+}
