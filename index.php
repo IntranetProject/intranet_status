@@ -6,9 +6,9 @@
        $code = curl_getinfo($ch, CURLINFO_HTTP_CODE);
 
        if($code == 200){
-           $status = 'up!';
+           $status = '<p style="display: inline" class="green-text text-accent-3">up!</p>';
        }else{
-           $status = 'under maintenance!';
+           $status = '<p style="display: inline" class="deep-orange-text text-accent-3">under maintenance!</p>';
        }
        curl_close($ch);
        return $status;
@@ -27,7 +27,7 @@
    <body>
       <main>
          <div class="container">
-            <h1 class="center-align"><b>IntranetProject Status</b></h1>
+            <h1 class="center-align"><b>Intranet Project Status</b></h1>
             <small class="notice">
                <p class="center-align">Click on any Name to visit the site!</p>
             </small>
@@ -66,7 +66,7 @@
             </div>
          </div>
       </main>
-      <footer class="page-footer">
+      <footer class="page-footer teal lighten-2">
          <div class="container">
             <div class="row">
                <div class="col l6 s12">
