@@ -4,4 +4,4 @@ This is just the status site of all our services. We'll always be working on imp
 
 [http://status.intranetproject.net]("http://status.IntranetProject.net")
 
-Just gonna leave this here
+I think this is it.
