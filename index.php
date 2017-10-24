@@ -32,32 +32,32 @@
                <p class="center-align">Click on any Name to visit the site!</p>
             </small>
             <div class="collection">
-               <a target="_blank" class="collection-item teal lighten-3 white-text" href="http://intranetproject.net">Main site is
+               <a target="_blank" class="collection-item" href="http://intranetproject.net">Main site is
                <?php
                   echo is_url_exist("http://intranetproject.net/up.txt");
                   ?>
                </a>
-               <a target="_blank" class="collection-item teal lighten-3 white-text" href="http://docs.intranetproject.net">Docs are
+               <a target="_blank" class="collection-item" href="http://docs.intranetproject.net">Docs are
                <?php
                   echo is_url_exist("http://docs.intranetproject.net/up.txt");
                   ?>
                </a>
-               <a target="_blank" class="collection-item teal lighten-3 white-text" href="http://blog.intranetproject.net">Blog is
+               <a target="_blank" class="collection-item" href="http://blog.intranetproject.net">Blog is
                <?php
                   echo is_url_exist("http://blog.intranetproject.net/up.txt");
                   ?>
                </a>
-               <a target="_blank" class="collection-item teal lighten-3 white-text" href="http://shop.intranetproject.net">Shop is
+               <a target="_blank" class="collection-item" href="http://shop.intranetproject.net">Shop is
                <?php
                   echo is_url_exist("http://shop.intranetproject.net/up.txt");
                   ?>
                </a>
-               <a target="_blank" class="collection-item teal lighten-3 white-text " href="http://download.intranetproject.net">Download is
+               <a target="_blank" class="collection-item" href="http://download.intranetproject.net">Download is
                <?php
                   echo is_url_exist("http://download.intranetproject.net/up.txt");
                   ?>
                </a>
-               <a target="_blank" class="collection-item teal lighten-3 white-text" href="http://json.intranetproject.net">JSON tool is
+               <a target="_blank" class="collection-item" href="http://json.intranetproject.net">JSON tool is
                <?php
                   echo is_url_exist("http://json.intranetproject.net/up.txt");
                   ?>
