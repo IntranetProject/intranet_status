@@ -34,32 +34,32 @@
             <div class="collection">
                <a target="_blank" class="collection-item" href="http://intranetproject.net">Main site is
                <?php
-                  echo is_url_exist("http://intranetproject.net/up.txt");
+                  echo is_url_exist("http://intranetproject.net/");
                   ?>
                </a>
                <a target="_blank" class="collection-item" href="http://docs.intranetproject.net">Docs are
                <?php
-                  echo is_url_exist("http://docs.intranetproject.net/up.txt");
+                  echo is_url_exist("http://docs.intranetproject.net/");
                   ?>
                </a>
                <a target="_blank" class="collection-item" href="http://blog.intranetproject.net">Blog is
                <?php
-                  echo is_url_exist("http://blog.intranetproject.net/up.txt");
+                  echo is_url_exist("http://blog.intranetproject.net/");
                   ?>
                </a>
                <a target="_blank" class="collection-item" href="http://shop.intranetproject.net">Shop is
                <?php
-                  echo is_url_exist("http://shop.intranetproject.net/up.txt");
+                  echo is_url_exist("http://shop.intranetproject.net/");
                   ?>
                </a>
                <a target="_blank" class="collection-item" href="http://download.intranetproject.net">Download is
                <?php
-                  echo is_url_exist("http://download.intranetproject.net/up.txt");
+                  echo is_url_exist("http://download.intranetproject.net/");
                   ?>
                </a>
                <a target="_blank" class="collection-item" href="http://json.intranetproject.net">JSON tool is
                <?php
-                  echo is_url_exist("http://json.intranetproject.net/up.txt");
+                  echo is_url_exist("http://json.intranetproject.net/");
                   ?>
                </a>
                </ul>
