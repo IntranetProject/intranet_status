@@ -4,8 +4,8 @@
        curl_setopt($ch, CURLOPT_NOBODY, true);
        curl_exec($ch);
        $code = curl_getinfo($ch, CURLINFO_HTTP_CODE);
-
-       if($code == 200){
+       $precode = substr($code, 0, 1);
+       if(!($precode == 3 || $precode == 5)){
            $status = '<p style="display: inline" class="green-text text-accent-3">up!</p>';
        }else{
            $status = '<p style="display: inline" class="deep-orange-text text-accent-3">under maintenance!</p>';
