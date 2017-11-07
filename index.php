@@ -52,14 +52,24 @@
                   echo is_url_exist("http://shop.intranetproject.net/");
                   ?>
                </a>
+               <a target="_blank" class="collection-item" href="http://packages.intranetproject.net">Package Manager is
+               <?php
+                  echo is_url_exist("http://packages.intranetproject.net/");
+                  ?>
+               </a>
                <a target="_blank" class="collection-item" href="http://download.intranetproject.net">Download is
                <?php
                   echo is_url_exist("http://download.intranetproject.net/");
                   ?>
                </a>
-               <a target="_blank" class="collection-item" href="http://json.intranetproject.net">JSON tool is
+               <a target="_blank" class="collection-item" href="http://api.intranetproject.net/v1/ping">API is
                <?php
-                  echo is_url_exist("http://json.intranetproject.net/");
+                  echo is_url_exist("http://api.intranetproject.net/v1/ping");
+                  ?>
+               </a>
+               <a target="_blank" class="collection-item" href="http://docs.api.intranetproject.net/v1/ping">API Docs are
+               <?php
+                  echo is_url_exist("http://docs.api.intranetproject.net/v1/ping");
                   ?>
                </a>
                </ul>
