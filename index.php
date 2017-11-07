@@ -67,9 +67,9 @@
                   echo is_url_exist("http://api.intranetproject.net/v1/ping");
                   ?>
                </a>
-               <a target="_blank" class="collection-item" href="http://docs.api.intranetproject.net/v1/ping">API Docs are
+               <a target="_blank" class="collection-item" href="http://docs.api.intranetproject.net">API Docs are
                <?php
-                  echo is_url_exist("http://docs.api.intranetproject.net/v1/ping");
+                  echo is_url_exist("http://docs.api.intranetproject.net");
                   ?>
                </a>
                </ul>
