@@ -57,11 +57,6 @@
                   echo is_url_exist("http://download.intranetproject.net/");
                   ?>
                </a>
-               <a target="_blank" class="collection-item" href="http://json.intranetproject.net">JSON tool is
-               <?php
-                  echo is_url_exist("http://json.intranetproject.net/");
-                  ?>
-               </a>
                </ul>
             </div>
          </div>
