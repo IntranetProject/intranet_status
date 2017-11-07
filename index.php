@@ -69,7 +69,7 @@
                </a>
                <a target="_blank" class="collection-item" href="http://docs.api.intranetproject.net">API Docs are
                <?php
-                  echo is_url_exist("http://docs.api.intranetproject.net");
+                  echo is_url_exist("http://docs.api.intranetproject.net/build/index.html");
                   ?>
                </a>
                </ul>
