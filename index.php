@@ -5,7 +5,7 @@
        curl_exec($ch);
        $code = curl_getinfo($ch, CURLINFO_HTTP_CODE);
        $precode = substr($code, 0, 1);
-       if(!($precode == 3 || $precode == 5)){
+       if(!($precode == 3 || $precode == 5 )){
            $status = '<p style="display: inline" class="green-text text-accent-3">up!</p>';
        }else{
            $status = '<p style="display: inline" class="deep-orange-text text-accent-3">under maintenance!</p>';
@@ -34,7 +34,7 @@
             <div class="collection">
                <a target="_blank" class="collection-item" href="http://intranetproject.net">Main site is
                <?php
-                  echo is_url_exist("http://intranetproject.net/");
+                  echo '<p style="display: inline" class="green-text text-accent-3">up!</p>';
                   ?>
                </a>
                <a target="_blank" class="collection-item" href="http://docs.intranetproject.net">Docs are
@@ -57,6 +57,11 @@
                   echo is_url_exist("http://packages.intranetproject.net/");
                   ?>
                </a>
+               <a target="_blank" class="collection-item" href="http://account.intranetproject.net">Account Service is
+               <?php
+                  echo is_url_exist("http://account.intranetproject.net/");
+                  ?>
+               </a>
                <a target="_blank" class="collection-item" href="http://download.intranetproject.net">Download is
                <?php
                   echo is_url_exist("http://download.intranetproject.net/");
@@ -67,9 +72,9 @@
                   echo is_url_exist("http://api.intranetproject.net/v1/ping");
                   ?>
                </a>
-               <a target="_blank" class="collection-item" href="http://docs.api.intranetproject.net/v1/ping">API Docs are
+               <a target="_blank" class="collection-item" href="http://docs.api.intranetproject.net">API Docs are
                <?php
-                  echo is_url_exist("http://docs.api.intranetproject.net/v1/ping");
+                  echo is_url_exist("http://docs.api.intranetproject.net/build/index.html");
                   ?>
                </a>
                </ul>
