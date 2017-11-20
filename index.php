@@ -57,6 +57,11 @@
                   echo is_url_exist("http://packages.intranetproject.net/");
                   ?>
                </a>
+               <a target="_blank" class="collection-item" href="http://account.intranetproject.net">Account Service is
+               <?php
+                  echo is_url_exist("http://account.intranetproject.net/");
+                  ?>
+               </a>
                <a target="_blank" class="collection-item" href="http://download.intranetproject.net">Download is
                <?php
                   echo is_url_exist("http://download.intranetproject.net/");
