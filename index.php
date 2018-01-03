@@ -1,4 +1,5 @@
 <?php
+header("Location: https://stats.uptimerobot.com/00Am3toPo");
 function is_url_exist($url){
    $ch = curl_init($url);
    curl_setopt($ch, CURLOPT_NOBODY, true);
