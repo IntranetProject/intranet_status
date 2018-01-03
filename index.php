@@ -113,9 +113,9 @@ function is_url_exist($url){
                         <h5 class="white-text">Links</h5>
                         <ul>
                             <li><a class="grey-text text-lighten-3" href="https://github.com/IntranetProjec">GitHub</a></li>
-                            <li><a class="grey-text text-lighten-3" href="imprint.html">Imprint</a></li>
+                            <li><a class="grey-text text-lighten-3" href="https://intranetproject.net/imprint.html">Imprint</a></li>
                             <li>
-                                <p class="grey-text text-lighten-3" href="#!">&lt; &gt;</i>
+                                <p class="grey-text text-lighten-3" href="#!"><b><i>&lt; &gt;</i>
                                     </b> with <i style="color: red;">&hearts;</i> by <a class="grey-text text-lighten-3" href="https://github.com/IntranetProject">Intranet</a></p>
                             </li>
                         </ul>
