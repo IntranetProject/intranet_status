@@ -80,7 +80,6 @@ function is_url_exist($url){
                   echo is_url_exist("http://docs.api.intranetproject.net/build/index.html");
                   ?>
                </a>
-                    </ul>
                 </div>
                 <?php
             $sql = "SELECT * FROM incidents";
@@ -128,7 +127,6 @@ function is_url_exist($url){
                 </div>
             </div>
         </footer>
-        </div>
     </body>
 
     </html>
