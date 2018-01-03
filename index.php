@@ -1,5 +1,4 @@
 <?php
-include("database.php");
 function is_url_exist($url){
    $ch = curl_init($url);
    curl_setopt($ch, CURLOPT_NOBODY, true);
@@ -81,10 +80,10 @@ function is_url_exist($url){
                   ?>
                </a>
                 </div>
-                <?php
-            $sql = "SELECT * FROM incidents";
-            $res = mysqli_query($link, $sql);
-            if ($res) {
+                <!-- <?php
+                            $sql = "SELECT * FROM incidents";
+                            $res = mysqli_query($link, $sql);
+                            if ($res) {
                 while ($row = $res->fetch_object()) {
                     echo '<div class="row">
                     <div class="col s12 m8 offset-m2">
@@ -97,8 +96,8 @@ function is_url_exist($url){
                     </div>
                 </div>';
                 }
-            }
-                ?>
+                            }
+                ?> -->
             </div>
         </main>
         <footer class="page-footer teal lighten-2">
@@ -127,6 +126,7 @@ function is_url_exist($url){
                 </div>
             </div>
         </footer>
+        </div>
     </body>
 
     </html>
